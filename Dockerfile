@@ -1,7 +1,7 @@
 FROM debian:stable-slim
 
 # Install nodejs
-ENV NPM_CONFIG_LOGLEVEL=info NODE_VERSION=8
+ENV NPM_CONFIG_LOGLEVEL=info NODE_VERSION=10
 
 RUN apt-get update \
       # Install initially needed tools for setup
